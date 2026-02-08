@@ -60,7 +60,7 @@ const Footer = () => {
   return (
     <footer
       dir="rtl"
-      className="bg-[#f9fafb] dark:bg-[#192866] border-t border-gray-100 dark:border-gray-700"
+      className="bg-[#f9fafb] dark:bg-[#192866] border-t  border-gray-300 dark:border-gray-700"
     >
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -146,7 +146,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom */}
-        <div className="mt-16 pt-6 border-t border-gray-100 text-center text-sm text-gray-500">
+        <div className="mt-16 pt-6 border-t border-gray-300 text-center text-sm text-gray-500">
           © {new Date().getFullYear()} صكوك صحة. جميع الحقوق محفوظة
         </div>
       </div>
