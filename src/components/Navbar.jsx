@@ -5,7 +5,7 @@ import logoW from "../assets/NavLogoW.png";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
     const navigate = useNavigate();
